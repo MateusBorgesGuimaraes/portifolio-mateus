@@ -42,8 +42,24 @@ table {
 	border-spacing: 0;
 }
 
-a {
-  text-decoration: none;
+
+
+@font-face{
+  font-family: "DevilBreezeDemi";
+  src:local("Devil-Breeze-Demi"),
+  url('./assets/fonts/Devil_Breeze/Devil-Breeze-Demi.ttf') 
+}
+
+@font-face{
+  font-family: "GeistSemi";
+  src:local("Geist-SemiBold"),
+  url('./assets/fonts/Geist/Geist-SemiBold.ttf') 
+}
+
+@font-face{
+  font-family: "GeistExtra";
+  src:local("Geist-ExtraBold"),
+  url('./assets/fonts/Geist/Geist-ExtraBold.ttf') 
 }
 
 :root {
@@ -54,9 +70,16 @@ a {
   --light-gray: #FAFAFB;
 }
 
+a {
+  text-decoration: none;
+	color: inherit;
+}
+
 body  {
   background: var(--white);
   color: var(--black);
+	font-family: 'GeistSemi', sans-serif;
+	height: 6000px;
 }
 
 .container {
