@@ -1,0 +1,62 @@
+.hero {
+  height: calc(100vh - 52px);
+  /* border: 1px solid red; */
+}
+
+.heroContent {
+  /* height: calc(100% - 20px); */
+  /* border: 1px solid blue; */
+  /* padding-top: 20px;  */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  gap: 4rem;
+}
+
+.paragraph {
+  align-self: center;
+  font-size: 1rem;
+  max-width: 18.75rem;
+}
+
+.title {
+  font-size: 8rem;
+  font-family: 'DevilBreezeDemi', 'GeistSemi', sans-serif;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  background-image: url('../../../assets/icons/decletter.svg');
+  width: 14.375rem;
+  height: 19.3125rem;
+  position: absolute;
+  top: -3.125rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dec {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--black);
+  border-radius: 50%;
+  align-self: center;
+}
+
+.btnDec {
+  background: none;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  background-image: url('../../../assets/icons/initial-arrow.svg');
+  background-repeat: no-repeat;
+  width: 1.875rem;
+  height: 2.125rem;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}

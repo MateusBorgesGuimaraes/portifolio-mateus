@@ -1,7 +1,13 @@
+import React from 'react';
 import styles from './Home.module.css';
+import Hero from './Hero/Hero';
 
 const Home = () => {
-  return <div className={`container`}>Home</div>;
+  return (
+    <section>
+      <Hero />
+    </section>
+  );
 };
 
 export default Home;

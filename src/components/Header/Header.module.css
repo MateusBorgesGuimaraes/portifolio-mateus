@@ -1,7 +1,7 @@
 .guiderWrapper {
   position: fixed;
   margin-top: .5rem;
-  width: 100%;
+  width: min(100% - 2rem, 87.5rem);
   max-width: 87.5rem;
   background-color: var(--gray);
   height: .5rem;
@@ -20,6 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
+  position: relative;
 }
 
 .logo {
@@ -45,4 +46,77 @@
 
 .menuLinks li a {
   font-size: 1.25rem;
+}
+
+.btnMenu {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.btnMenu span {
+  display: block;
+  border-radius: 1.25rem;
+  width: 2rem;
+  height: .25rem;
+  background-color: var(--black);
+  transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
+}
+
+.btnMenu.active span:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 0.5rem;
+}
+
+.btnMenu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.btnMenu.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -0.5rem;
+}
+
+@media (max-width: 64rem) {
+  .btnMenu {
+    display: flex;
+  }
+
+  .menuLinks {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s 0.3s; 
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 0.1rem var(--gray);
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .menuLinks.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+}
+
+@media (max-width: 48rem) {
+  .logo {
+    font-size: 1rem;
+  }
+
+  .menuLinks li a {
+    font-size: 1rem;
+  }
 }
