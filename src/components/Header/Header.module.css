@@ -16,6 +16,7 @@
 }
 
 .nav {
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +41,7 @@
 }
 
 .menuLinks {
+  z-index: 1000;
   display: flex;
   gap: 4rem;
 }
@@ -104,7 +106,9 @@
   }
 
   .menuLinks.active {
+    z-index: 1000;
     visibility: visible;
+    background: var(--white);
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.3s ease, transform 0.3s ease;

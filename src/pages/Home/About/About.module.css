@@ -1,0 +1,55 @@
+.aboutContainer {
+  margin-top: 1.25rem;
+  background: var(--darker-gray);
+  padding-block: 3rem;
+}
+
+.generalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  color: var(--white);
+}
+
+.titleContainer {
+  display: flex;
+  font-family: 'DevilBreezeDemi';
+  font-size: 8rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dec {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--white);
+  border-radius: 50%;
+}
+
+.phraseContainer {
+  font-family: 'GeistSemi', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 50rem;
+  text-align: center;
+}
+
+.phraseContainer p {
+  position: relative;
+}
+
+.phraseContainer p::after {
+  content: '';
+  position: absolute;
+  bottom: -24px;
+  display: block;
+  width: 37.5rem;
+  height: .0625rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+}

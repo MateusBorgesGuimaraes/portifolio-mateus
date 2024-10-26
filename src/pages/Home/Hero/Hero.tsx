@@ -6,7 +6,6 @@ const Hero = () => {
     <section className="container">
       <div className={styles.hero}>
         <div className={styles.heroContent}>
-          <span className={styles.dec}></span>
           <p className={styles.paragraph}>
             Ola, me chamo Mateus Borges e tenho conhecimento tanto na área de de
             design, quanto de desenvolvimento web.
@@ -18,7 +17,6 @@ const Hero = () => {
             Busco desenvolver produtos de interface simples, intuitivas e
             fluidas. Aberto a propostas !
           </p>
-          <span className={styles.dec}></span>
           <button className={styles.btnDec}></button>
         </div>
       </div>
