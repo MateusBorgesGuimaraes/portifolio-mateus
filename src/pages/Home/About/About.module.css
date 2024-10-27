@@ -29,7 +29,8 @@
 }
 
 .phraseContainer {
-  font-family: 'GeistSemi', sans-serif;
+  font-family: 'GeistMedium', sans-serif;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -52,4 +53,21 @@
   left: 50%;
   transform: translateX(-50%);
   background: var(--white);
+}
+
+
+@media(max-width: 37.5rem) {
+  .phraseContainer p::after {
+    width: min(37.5rem, 100%);
+  }
+
+  .titleContainer {
+    font-size: 6rem;
+  }
+}
+
+@media(max-width: 25rem) {
+  .titleContainer {
+    font-size: 4rem;
+  }
 }

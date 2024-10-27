@@ -1,0 +1,28 @@
+.cardProjectContainer {
+  align-self: center;
+  justify-self: center;
+  background: var(--light-gray);
+  width: min(26.25rem, 100%);
+  height: 13.75rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+  position: relative;
+}
+
+.cardProjectImage {
+  background: var(--gray);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.25rem;
+}
+
+.cardProjectImage span {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background: var(--white);
+  border-radius: 50%;
+}

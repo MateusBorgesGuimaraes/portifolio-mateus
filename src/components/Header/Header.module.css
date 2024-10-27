@@ -1,5 +1,6 @@
 .guiderWrapper {
   position: fixed;
+  z-index: 1000;
   margin-top: .5rem;
   width: min(100% - 2rem, 87.5rem);
   max-width: 87.5rem;

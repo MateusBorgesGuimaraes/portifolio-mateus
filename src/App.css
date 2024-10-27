@@ -60,6 +60,12 @@ table {
   url('./assets/fonts/Geist/Geist-ExtraBold.ttf') 
 }
 
+@font-face{
+  font-family: "GeistMedium";
+  src:local("Geist-Medium"),
+  url('./assets/fonts/Geist/Geist-Medium.ttf') 
+}
+
 :root {
   --black: #000000;
   --white: #ffffff;

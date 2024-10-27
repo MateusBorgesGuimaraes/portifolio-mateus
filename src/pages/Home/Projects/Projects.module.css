@@ -1,0 +1,45 @@
+.projectsContainer {
+  padding-block: 6rem;
+}
+
+.startContainer {
+  display: flex;
+  gap: 4rem;
+}
+
+.startContainer > h1 {
+  font-family: 'DevilBreezeDemi', sans-serif;
+  font-size: 8rem;
+}
+
+.upDec {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.upDec::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  z-index: -1;
+  background: var(--gray);
+}
+
+.upDec > span {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--gray);
+  border-radius: 50%;
+}
+
+.cardProjectContainer {
+  margin-block: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 1.5rem;
+}
