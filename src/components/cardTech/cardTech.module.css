@@ -1,0 +1,51 @@
+.cardTechContainer {
+  background: var(--darker-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: .375rem;
+  border: 1px solid rgba(0, 0, 0, .2);
+  filter: grayscale(1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: filter 0.3s ease;
+}
+
+.cardTechContainer:hover {
+  filter: grayscale(0);
+}
+
+.cardTechTitle {
+  font-size: 1.25rem;
+  color: var(--white);
+}
+
+@media(max-width: 60rem) {
+  .cardTechContainer {
+    width: 10rem;
+    height: 10rem;
+  }
+  .cardTechImage img {
+    width: 3.75rem;
+    height:  3.75rem;
+  }
+}
+
+@media(max-width: 36.25rem) {
+  .cardTechContainer {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .cardTechImage img {
+    width: 2rem;
+    height:  2rem;
+  }
+
+  .cardTechTitle {
+    font-size: .875rem;
+    color: var(--white);
+  }
+}

@@ -43,3 +43,45 @@
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 1.5rem;
 }
+
+@media(max-width: 56.25rem) {
+  .upDec {
+    display: none;
+  }
+  
+  .startContainer > h1 {
+    font-size: 6rem;
+  }
+
+  .startContainer {
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+
+@media(max-width: 31.25rem) {
+  .projectsContainer {
+    padding-block: 2rem;
+  }
+
+  .startContainer > h1 {
+    font-size: 4rem;
+  }
+
+  .startContainer {
+    padding: 1.5rem;
+  }
+
+  .cardProjectContainer {
+    margin-block: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+}
+@media(max-width: 25rem)  {
+  .cardProjectContainer {
+    margin-block: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+}

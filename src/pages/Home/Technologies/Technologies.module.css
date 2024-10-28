@@ -1,0 +1,262 @@
+.technologiesContainer {
+  background: var(--gray);
+}
+
+.gridContainer {
+  padding-block: 6rem;
+  display: grid;
+  grid-template-areas:
+    "tecno tecno react javascript typescript node"
+    "figma tailwind logias logias css html"
+    "vazio nest next . . .";
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  gap: 2.5rem; 
+}
+
+.tecno, .logias {
+  font-family: 'DevilBreezeDemi', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+}
+
+.tecno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: tecno;
+}
+
+.react {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: react;
+}
+
+.javascript {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: javascript;
+}
+
+.typescript {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: typescript;
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: node;
+}
+
+.figma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: figma;
+}
+
+.tailwind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: tailwind;
+}
+
+.logias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: logias;
+}
+
+.css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: css;
+}
+
+.html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: html;
+}
+
+.vazio {
+  width: 100%;
+  height: 100%;
+  grid-area: vazio;
+}
+
+.nest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: nest;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: next;
+}
+
+@media(max-width: 1440px)  {
+  .gridContainer {
+    grid-template-areas:
+      "tecno tecno react javascript typescript"
+      "figma tailwind logias logias node"
+      "css nest next html .";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 200px);
+  }
+}
+
+@media(max-width: 75rem)  {
+  .gridContainer {
+    grid-template-areas:
+      "tecno tecno react javascript"
+      "figma tailwind logias logias"
+      "css nest node typescript"
+      "next html . .";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+
+@media(max-width: 60rem)  {
+  .tecno, .logias {
+    font-size: 6rem;
+  }
+  .gridContainer {
+    grid-template-areas:
+      "tecno tecno react javascript"
+      "figma tailwind logias logias"
+      "css nest node typescript"
+      "next html . .";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 160px);
+    gap: 1.5rem; 
+  }
+}
+
+@media(max-width: 47.5rem) {
+  .gridContainer {
+    
+    grid-template-areas:
+      "tecno tecno react"
+      "javascript logias logias"
+      "figma tailwind css"
+      "node nest typescript"
+      "next html .";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 160px);
+    gap: 1.5rem; 
+  }
+}
+
+@media(max-width: 36.25rem) {
+  .technologiesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tecno, .logias {
+    font-size: 4rem;
+    justify-content: start;
+  }
+  .react {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .javascript {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .typescript {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .node {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .figma {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .tailwind {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .logias {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .css {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .html {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .nest {
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .next {
+    align-items: center;
+    justify-content: start;
+  }
+  .gridContainer {
+    padding-block: 2rem;
+    grid-template-areas:
+      "tecno tecno ."
+      "logias logias ."
+      "javascript react figma"
+      "tailwind nest css"
+      "node typescript next"
+      "html . .";
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(6, 100px);
+    gap: .5rem; 
+  }
+}
+
+@media(max-width: 25rem) {
+  .gridContainer {
+    grid-template-areas:
+      "tecno tecno"
+      "logias logias"
+      "javascript react"
+      "figma tailwind"
+      "nest css"
+      "node typescript"
+      "next html";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 100px);
+    gap: .5rem; 
+  }
+}
