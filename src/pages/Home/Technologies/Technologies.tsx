@@ -6,6 +6,11 @@ const Technologies = () => {
     <section className={styles.technologiesContainer}>
       <div className={`${styles.gridContainer} container`}>
         <h1 className={styles.tecno}>TECNO</h1>
+        <h1 className={styles.hiddenTitle}>
+          TECNO
+          <br />
+          LOGIAS
+        </h1>
         <div className={styles.react}>
           <CardTech
             image={'/src/assets/icons/react.svg'}

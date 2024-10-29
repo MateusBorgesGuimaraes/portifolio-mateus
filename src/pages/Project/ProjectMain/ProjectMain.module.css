@@ -1,0 +1,21 @@
+.containerProject {
+  margin-top: 5.25rem;
+  display:  grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 42.5rem);
+  height: 27.5rem;
+  border-radius: .375rem;
+  background: var(--light-gray);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.video iframe {
+  border-radius: .375rem;
+}

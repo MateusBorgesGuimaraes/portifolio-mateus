@@ -2,6 +2,7 @@ import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Technologies from './Technologies/Technologies';
+import Contact from './Contact/Contact';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <About />
       <Projects />
       <Technologies />
+      <Contact />
     </section>
   );
 };

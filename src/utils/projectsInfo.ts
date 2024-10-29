@@ -3,8 +3,9 @@ export const projectsInfo = [
     name: 'On Target',
     cleanName: 'on-target',
     image: '/src/assets/images/onTarget-thumb.png',
+    embed: 'https://www.youtube.com/embed/_jJt2TWTgoU?si=oJbRyVy2E67J6ku9',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/on-target',
-    urlYoutube: '...',
+    urlYoutube: 'https://youtu.be/_jJt2TWTgoU',
     description:
       'O On Target foi feito com um proposito de simular algumas funções simples de comercio eletricos, com uma aparencia mais moderna e futurista.',
     technologies: [
@@ -31,20 +32,21 @@ export const projectsInfo = [
       ],
     },
     desing: [
-      { image: '../assets/images/onTarget-Design-Home.png', title: 'home' },
+      { image: '/src/assets/images/onTarget-Design-Home.png', title: 'home' },
+      { image: '/src/assets/images/onTarget-Design-Cart.png', title: 'cart' },
       {
-        image: '../assets/images/onTarget-Design-Product.png',
+        image: '/src/assets/images/onTarget-Design-Product.png',
         title: 'product',
       },
-      { image: '../assets/images/onTarget-Design-Cart.png', title: 'cart' },
     ],
   },
   {
     name: 'For You',
     cleanName: 'for-you',
     image: '/src/assets/images/forYou-thumb.png',
+    embed: 'https://www.youtube.com/embed/l0mKvypCfyg?si=mu9mNHzC1lqF7aWj',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/for-you-app',
-    urlYoutube: '...',
+    urlYoutube: 'https://youtu.be/l0mKvypCfyg',
     description:
       'O For You é um projeto pessoal de um site de noticias, com um design minimalista e moderno de cores neutras.',
     technologies: [
@@ -72,13 +74,13 @@ export const projectsInfo = [
       ],
     },
     desing: [
-      { image: '../assets/images/forYou-Design-home.png', title: 'home' },
+      { image: '/src/assets/images/forYou-Design-home.png', title: 'home' },
       {
-        image: '../assets/images/forYou-Design-comentarios.png',
+        image: '/src/assets/images/forYou-Design-comentarios.png',
         title: 'noticia',
       },
       {
-        image: '../assets/images/forYou-Design-categoria.png',
+        image: '/src/assets/images/forYou-Design-categoria.png',
         title: 'categoria',
       },
     ],
@@ -87,8 +89,9 @@ export const projectsInfo = [
     name: 'Feedbash',
     cleanName: 'feedbash',
     image: '/src/assets/images/feedbash-thumb.png',
+    embed: 'https://www.youtube.com/embed/gWj-v3sbTuM?si=sXsZIpUE_tEVl2C5',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/feedbash',
-    urlYoutube: '...',
+    urlYoutube: 'https://youtu.be/gWj-v3sbTuM',
     description:
       'O Feedbash foi criado pensando nas pessoas que querem um feedback sobre algo que elas tenham feito, seja algum video, historia, foto etc... sem necessariamente ter que se expor para todo mundo.',
     technologies: ['React', 'zod', 'zustand', 'react-hook-form', 'polished'],
@@ -109,13 +112,16 @@ export const projectsInfo = [
       ],
     },
     desing: [
-      { image: '../assets/images/feedbash-Design-acesso.png', title: 'acesso' },
       {
-        image: '../assets/images/feedbash-Design-feedback.png',
+        image: '/src/assets/images/feedbash-Design-acesso.png',
+        title: 'acesso',
+      },
+      {
+        image: '/src/assets/images/feedbash-Design-feedback.png',
         title: 'feedback',
       },
       {
-        image: '../assets/images/feedbash-Design-Home.png',
+        image: '/src/assets/images/feedbash-Design-Home.png',
         title: 'home',
       },
     ],
@@ -124,8 +130,9 @@ export const projectsInfo = [
     name: 'Reading Manager',
     cleanName: 'reading-manager',
     image: '/src/assets/images/readingManager-thumb.png',
+    embed: 'https://www.youtube.com/embed/7TCeOmc_UUI?si=XpS7DoxoHT5pUW4x',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/Reading-Manager',
-    urlYoutube: '...',
+    urlYoutube: 'https://youtu.be/7TCeOmc_UUI',
     description:
       'O reading manager foi feito para organizar os conteudos de leitura de maneira que facilite e mostre o acompanhamneto e estatisticas da mesma.',
     technologies: [
@@ -154,15 +161,15 @@ export const projectsInfo = [
     },
     desing: [
       {
-        image: '../assets/images/readingManeger-Design-Acesso.png',
+        image: '/src/assets/images/readingManeger-Design-Acesso.png',
         title: 'acesso',
       },
       {
-        image: '../assets/images/readingManeger-Design-folders.png',
+        image: '/src/assets/images/readingManeger-Design-folders.png',
         title: 'folders',
       },
       {
-        image: '../assets/images/readingManeger-Design-Home.png',
+        image: '/src/assets/images/readingManeger-Design-Home.png',
         title: 'home',
       },
     ],
@@ -171,8 +178,9 @@ export const projectsInfo = [
     name: 'Climb Up',
     cleanName: 'climb-up',
     image: '/src/assets/images/climbUp-thumb.png',
+    embed: 'https://www.youtube.com/embed/Wm4opcg7aiI?si=5GaDtw1UlRsnxHck',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/climbUp',
-    urlYoutube: '...',
+    urlYoutube: 'https://youtu.be/Wm4opcg7aiI',
     description:
       'O climb Up foi feito pensando em dar destque a beleza e grandiode das montanhas e treinar o uso do tailwind.',
     technologies: ['React', 'tailwind'],
@@ -189,7 +197,7 @@ export const projectsInfo = [
     },
     desing: [
       {
-        image: '../assets/images/climbUp-Design-Home.png',
+        image: '/src/assets/images/climbUp-Design-Home.png',
         title: 'home',
       },
     ],

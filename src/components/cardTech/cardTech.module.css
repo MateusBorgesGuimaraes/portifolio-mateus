@@ -36,8 +36,8 @@
 
 @media(max-width: 36.25rem) {
   .cardTechContainer {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 7.5rem;
+    height: 7.5rem;
   }
   .cardTechImage img {
     width: 2rem;
