@@ -19,3 +19,180 @@
 .video iframe {
   border-radius: .375rem;
 }
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.infos > h1 {
+  font-family: 'DevilBreezeDemi', sans-serif;
+  font-size: 3rem;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.texts h3 {
+  font-size: 1.25rem;
+}
+
+.texts > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.technologies {
+  text-transform: lowercase;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .875rem;
+}
+
+.technologies li {
+  font-size: .875rem;
+  color: var(--white);
+  background: var(--darker-gray);
+  padding: .25rem 1rem;
+  border-radius: .75rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.links a {
+  padding: .5rem 1.75rem;
+  border-radius: .25rem;
+  color: var(--white);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .1875rem;
+  transition: background .3s ease-in-out;
+}
+
+.links a:first-of-type:hover {
+  background: #305E9A;
+}
+
+.links a:last-of-type:hover {
+  background: #D20A0A;
+}
+.links a:first-of-type {
+  background: #4078C0;
+}
+
+.links a:last-of-type {
+  background: #FF0000;
+}
+
+.objetivosPrincipais > h1 {
+  font-family: 'DevilBreezeDemi', sans-serif;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.objetivosPrincipais > h1 > span {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: var(--black);
+  border-radius: 50%;
+  margin-bottom: .25rem;
+}
+
+.objetivosPrincipais h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.objetivosSecundarios h3 {
+  font-size: 1.25rem;
+  margin-top: 5rem;
+}
+
+.objetivos {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.objetivos li {
+  position: relative;
+  font-size: 1rem;
+}
+
+.objetivos li::before {
+  content: '';
+  display: block;
+  left: -1.5rem;
+  position: absolute;
+  width: .75rem;
+  height: .75rem;
+  background: var(--black);
+  border-radius: 50%;
+  margin-bottom: .25rem;
+}
+
+@media(max-width: 71.25rem) {
+  .containerProject {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .objetivosSecundarios h3 {
+    margin-top: 1rem;
+  }
+}
+
+@media(max-width: 47.5rem) {
+  .containerProject {
+    margin-top: 3rem;
+    }
+  .video {
+    padding: .625rem;
+    height: 26.25rem;
+  }
+  .video iframe {
+    width: 100%;
+  }
+}
+
+@media(max-width: 33.75rem) {
+  .video {
+    height: 18.75rem;
+  }
+  .video iframe {
+    height: 100%;
+  }
+}
+
+@media(max-width: 23.75rem) {
+  .video {
+    height: 15rem;
+  }
+}
+
+@media(max-width: 20.625rem) {
+  .objetivosPrincipais > h1 > span {
+    display: none;
+    
+  }
+}

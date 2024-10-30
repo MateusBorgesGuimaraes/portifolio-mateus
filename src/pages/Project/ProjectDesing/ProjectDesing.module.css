@@ -1,3 +1,7 @@
+.desingContainer {
+  padding-block: 6rem;
+}
+
 .containerDesings {
   padding-block: 3rem;
   display: grid;
@@ -6,19 +10,104 @@
 }
 
 .imageCotainer {
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   width: min(100%, 27.5rem);
-  height:36.75rem;
+  height: 36.75rem;
   border-radius: .5rem;
   background: var(--light-gray);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.imageCotainer img  {
-  object-fit:contain;
+.imageWrapper {
   width: 20rem;
   height: 30rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.imageCotainer img {
+  object-fit: contain;
+  width: 100%; 
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover img {
+  transform: scale(1.15);
+}
+
+.desingTitle {
+  font-family: 'DevilBreezeDemi', sans-serif;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.desingTitle > span {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: var(--black);
+  border-radius: 50%;
+  margin-bottom: .25rem;
+}
+
+.desingTextContainer { 
+  margin-top: .75rem;
+  display: flex;
+  flex-direction: column;
+  gap: .375rem;
+}
+
+.desingTextContainer p {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@media(max-width: 71.25rem) {
+  .containerDesings {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 46.25rem) {
+  .containerDesings {
+    grid-template-columns: 1fr;
+  }
+
+  .desingTitle {
+    align-self: self-start;
+  }
+
+  .desingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 31.25rem) {
+
+  .desingContainer {
+    padding-block: 3rem;
+  }
+  .imageCotainer {
+    padding: 40px;
+    height: max-content;
+    width: max-content;
+ }
+  
+  .imageWrapper {
+    width: 12.5rem;
+    height: 18.75rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
