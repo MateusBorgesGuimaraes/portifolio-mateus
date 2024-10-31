@@ -27,6 +27,12 @@
   border-radius: 50%;
 }
 
+@media(max-width: 58.75rem)  {
+  .cardProjectContainer {
+    display: none;
+  }
+}
+
 @media(max-width: 31.25rem)  {
   .cardProjectContainer {
     height: 11.25rem;

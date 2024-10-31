@@ -44,6 +44,12 @@
   gap: 1.5rem;
 }
 
+@media(max-width: 58.75rem) {
+  .projectsContainer {
+    padding-block: 2rem;
+  }
+}
+
 @media(max-width: 56.25rem) {
   .upDec {
     display: none;
@@ -60,10 +66,6 @@
 }
 
 @media(max-width: 31.25rem) {
-  .projectsContainer {
-    padding-block: 2rem;
-  }
-
   .startContainer > h1 {
     font-size: 4rem;
   }

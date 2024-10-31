@@ -49,6 +49,35 @@
 
 .menuLinks li a {
   font-size: 1.25rem;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.menuLinks li a:hover {
+  color: var(--darker-gray);
+}
+
+.menuLinks li a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: var(--white);
+  width: 0;
+  height: 1rem;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  transition: width 0.3s, background-color 0.3s ease;
+}
+
+.menuLinks li a:hover {
+  color: var(--darker-gray);
+}
+
+.menuLinks li a:hover::before {
+  background: var(--darker-gray);
+  width: 1rem;
 }
 
 .btnMenu {

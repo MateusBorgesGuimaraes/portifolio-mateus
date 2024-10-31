@@ -1,4 +1,4 @@
-import React from 'react';
+import { scrollSuave } from '../../../func/sroollSuave';
 import styles from './Hero.module.css';
 
 const Hero = () => {
@@ -17,7 +17,10 @@ const Hero = () => {
             Busco desenvolver produtos de interface simples, intuitivas e
             fluidas. Aberto a propostas !
           </p>
-          <button className={styles.btnDec}></button>
+          <button
+            onClick={() => scrollSuave('sobre')}
+            className={styles.btnDec}
+          ></button>
         </div>
       </div>
     </section>

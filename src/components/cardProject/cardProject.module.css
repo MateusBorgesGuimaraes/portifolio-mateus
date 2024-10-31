@@ -46,6 +46,13 @@
 .cardProjectLink:hover {
   scale: 1.1;
 }
+
+@media(max-width: 58.75rem)  {
+  .cardProjectImage {
+    filter: none;
+  }
+}
+
 @media(max-width: 31.25rem)  {
   .cardProjectLink {
     width: 2.5rem;

@@ -7,7 +7,7 @@ const Contact = () => {
         <h1 className={styles.title}>CONTATO</h1>
         <p className={styles.paragraph}>
           Fique a vontade para entrar em contato comigo quando quiser, seja para
-          propostos de trabalho ou tirar alguma duvida !!
+          propostas de trabalho ou tirar alguma duvida !!
         </p>
         <div className={styles.contactsInfo}>
           <p>

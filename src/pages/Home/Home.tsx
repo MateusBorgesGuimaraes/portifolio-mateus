@@ -8,10 +8,18 @@ const Home = () => {
   return (
     <section>
       <Hero />
-      <About />
-      <Projects />
-      <Technologies />
-      <Contact />
+      <div id="sobre">
+        <About />
+      </div>
+      <div id="projetos">
+        <Projects />
+      </div>
+      <div id="tecnologias">
+        <Technologies />
+      </div>
+      <div id="contato">
+        <Contact />
+      </div>
     </section>
   );
 };
