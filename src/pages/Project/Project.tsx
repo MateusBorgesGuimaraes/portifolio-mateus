@@ -1,4 +1,3 @@
-// import styles from './Project.module.css';
 import { useParams } from 'react-router-dom';
 import { projectsInfo } from '../../utils/projectsInfo';
 import { Projeto } from '../../types/projeto';
@@ -10,12 +9,12 @@ const Project = () => {
   const project = projectsInfo.find(
     (project) => project.cleanName === name,
   ) as Projeto;
-  const { desing, ...projetctInfos } = project;
+  const { design, ...projetctInfos } = project;
 
   return (
     <section>
       <ProjectMain projeto={projetctInfos} />
-      <ProjectDesing desings={desing} />
+      <ProjectDesing designs={design} />
     </section>
   );
 };

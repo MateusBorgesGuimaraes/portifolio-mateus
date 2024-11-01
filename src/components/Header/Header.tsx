@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import { useScreenHeight } from '../../hooks/useScreenHeigth';
+import { HashLink } from 'react-router-hash-link';
 import React from 'react';
 
 const Header = () => {
@@ -36,16 +37,24 @@ const Header = () => {
           className={`${styles.menuLinks} ${activeMenu ? styles.active : ''}`}
         >
           <li>
-            <a href="#sobre">sobre</a>
+            <HashLink smooth to={'/#sobre'}>
+              sobre
+            </HashLink>
           </li>
           <li>
-            <a href="#projetos">projetos</a>
+            <HashLink smooth to="/#projetos">
+              projetos
+            </HashLink>
           </li>
           <li>
-            <a href="#tecnologias">tecnologias</a>
+            <HashLink smooth to="/#tecnologias">
+              tecnologias
+            </HashLink>
           </li>
           <li>
-            <a href="#contato">contato</a>
+            <HashLink smooth to="/#contato">
+              contato
+            </HashLink>
           </li>
         </ul>
       </nav>

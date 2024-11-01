@@ -1,26 +1,26 @@
-import { ProjetoDesing } from '../../../types/projeto';
+import { ProjetoDesign } from '../../../types/projeto';
 import styles from './ProjectDesing.module.css';
 
 type ProjectDesingProps = {
-  desings: ProjetoDesing[];
+  designs: ProjetoDesign[];
 };
 
-const ProjectDesing = ({ desings }: ProjectDesingProps) => {
+const ProjectDesing = ({ designs }: ProjectDesingProps) => {
   return (
     <section className={`container ${styles.desingContainer}`}>
       <h1 className={styles.desingTitle}>
         <span></span> DESING
       </h1>
       <div className={styles.containerDesings}>
-        {desings.map((desing) => (
-          <div className={styles.desing} key={desing.title}>
+        {designs.map((design) => (
+          <div className={styles.desing} key={design.title}>
             <div className={styles.imageCotainer}>
               <div className={styles.imageWrapper}>
-                <img src={desing.image} alt={desing.title} />
+                <img src={design.image} alt={design.title} />
               </div>
             </div>
             <div className={styles.desingTextContainer}>
-              <h3>{desing.title}</h3>
+              <h3>{design.title}</h3>
               <p>desing</p>
             </div>
           </div>

@@ -11,7 +11,7 @@ export type Projeto = {
     principais: string[];
     secundarios: string[];
   };
-  desing: { image: string; title: string }[];
+  design: { image: string; title: string }[];
 };
 
 export type ProjetoInfos = {
@@ -31,7 +31,7 @@ export type ProjetoInfos = {
   };
 };
 
-export type ProjetoDesing = {
+export type ProjetoDesign = {
   image: string;
   title: string;
 };

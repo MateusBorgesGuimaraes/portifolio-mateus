@@ -96,6 +96,16 @@
   }
 }
 
+@media(max-width: 37.5rem) {
+  .btnDec {
+    display: none;
+  }
+
+  .paragraph:last-of-type::after {
+    display: none;
+  }
+}
+
 @media(max-width: 87.5rem) {
   .title {
     font-size: 6rem;
