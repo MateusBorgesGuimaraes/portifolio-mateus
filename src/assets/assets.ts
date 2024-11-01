@@ -8,6 +8,7 @@ import next from './icons/next.svg';
 import react from './icons/react.svg';
 import tailwind from './icons/tailwindcss.svg';
 import typescript from './icons/typescript.svg';
+import projectArrow from './icons/projetcs-arrow.svg';
 
 import climbUpDesignHome from './images/climbUp-Design-Home.jpg';
 import climbUpThumb from './images/climbUp-thumb.jpg';
@@ -34,6 +35,7 @@ import readingManagerDesignAcesso from './images/readingManeger-Design-Acesso.pn
 
 export const assetsItems = {
   css,
+  projectArrow,
   figma,
   html,
   javascript,

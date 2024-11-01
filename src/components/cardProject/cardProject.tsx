@@ -1,4 +1,5 @@
 import styles from './cardProject.module.css';
+import { assetsItems } from '../../assets/assets';
 
 type CardProjectProps = {
   description: string;
@@ -13,7 +14,7 @@ const CardProject = ({ description, image, cleanName }: CardProjectProps) => {
         <img src={image} alt={description} />
       </div>
       <a className={styles.cardProjectLink} href={`project/${cleanName}`}>
-        <img src={'/src/assets/icons/projetcs-arrow.svg'} alt="" />
+        <img src={assetsItems.projectArrow} alt="" />
       </a>
     </div>
   );
