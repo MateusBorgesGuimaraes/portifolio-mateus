@@ -1,8 +1,10 @@
+import { assetsItems } from '../assets/assets';
+
 export const projectsInfo = [
   {
     name: 'On Target',
     cleanName: 'on-target',
-    image: '/src/assets/images/onTarget-thumb.jpg',
+    image: assetsItems.onTargetThumb,
     embed: 'https://www.youtube.com/embed/_jJt2TWTgoU?si=oJbRyVy2E67J6ku9',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/on-target',
     urlYoutube: 'https://youtu.be/_jJt2TWTgoU',
@@ -32,10 +34,10 @@ export const projectsInfo = [
       ],
     },
     design: [
-      { image: '/src/assets/images/onTarget-Design-Home.jpg', title: 'home' },
-      { image: '/src/assets/images/onTarget-Design-Cart.jpg', title: 'cart' },
+      { image: assetsItems.onTargetDesignHome, title: 'home' },
+      { image: assetsItems.onTargetDesignCart, title: 'cart' },
       {
-        image: '/src/assets/images/onTarget-Design-Product.jpg',
+        image: assetsItems.onTargetDesignProduct,
         title: 'product',
       },
     ],
@@ -43,7 +45,7 @@ export const projectsInfo = [
   {
     name: 'For You',
     cleanName: 'for-you',
-    image: '/src/assets/images/forYou-thumb.jpg',
+    image: assetsItems.forYouThumb,
     embed: 'https://www.youtube.com/embed/l0mKvypCfyg?si=mu9mNHzC1lqF7aWj',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/for-you-app',
     urlYoutube: 'https://youtu.be/l0mKvypCfyg',
@@ -74,13 +76,13 @@ export const projectsInfo = [
       ],
     },
     design: [
-      { image: '/src/assets/images/forYou-Design-home.jpg', title: 'home' },
+      { image: assetsItems.forYouDesignHome, title: 'home' },
       {
-        image: '/src/assets/images/forYou-Design-comentarios.jpg',
+        image: assetsItems.forYouDesignComentarios,
         title: 'notícia',
       },
       {
-        image: '/src/assets/images/forYou-Design-categoria.jpg',
+        image: assetsItems.forYouDesignCategoria,
         title: 'categoria',
       },
     ],
@@ -88,7 +90,7 @@ export const projectsInfo = [
   {
     name: 'Feedbash',
     cleanName: 'feedbash',
-    image: '/src/assets/images/feedbash-thumb.jpg',
+    image: assetsItems.feedbashThumb,
     embed: 'https://www.youtube.com/embed/gWj-v3sbTuM?si=sXsZIpUE_tEVl2C5',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/feedbash',
     urlYoutube: 'https://youtu.be/gWj-v3sbTuM',
@@ -113,15 +115,15 @@ export const projectsInfo = [
     },
     design: [
       {
-        image: '/src/assets/images/feedbash-Design-acesso.jpg',
+        image: assetsItems.feedbashDesignAcesso,
         title: 'acesso',
       },
       {
-        image: '/src/assets/images/feedbash-Design-feedback.jpg',
+        image: assetsItems.feedbashDesignfeedback,
         title: 'feedback',
       },
       {
-        image: '/src/assets/images/feedbash-Design-Home.jpg',
+        image: assetsItems.feedbashDesignHome,
         title: 'home',
       },
     ],
@@ -129,7 +131,7 @@ export const projectsInfo = [
   {
     name: 'Reading Manager',
     cleanName: 'reading-manager',
-    image: '/src/assets/images/readingManager-thumb.png',
+    image: assetsItems.readingManagerThumb,
     embed: 'https://www.youtube.com/embed/7TCeOmc_UUI?si=XpS7DoxoHT5pUW4x',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/Reading-Manager',
     urlYoutube: 'https://youtu.be/7TCeOmc_UUI',
@@ -161,15 +163,15 @@ export const projectsInfo = [
     },
     design: [
       {
-        image: '/src/assets/images/readingManeger-Design-Acesso.png',
+        image: assetsItems.readingManagerDesignAcesso,
         title: 'acesso',
       },
       {
-        image: '/src/assets/images/readingManeger-Design-folders.png',
+        image: assetsItems.readingManagerDesignFolders,
         title: 'folders',
       },
       {
-        image: '/src/assets/images/readingManeger-Design-Home.jpg',
+        image: assetsItems.readingManagerDesignHome,
         title: 'home',
       },
     ],
@@ -177,7 +179,7 @@ export const projectsInfo = [
   {
     name: 'Climb Up',
     cleanName: 'climb-up',
-    image: '/src/assets/images/climbUp-thumb.jpg',
+    image: assetsItems.climbUpThumb,
     embed: 'https://www.youtube.com/embed/Wm4opcg7aiI?si=5GaDtw1UlRsnxHck',
     urlGithub: 'https://github.com/MateusBorgesGuimaraes/climbUp',
     urlYoutube: 'https://youtu.be/Wm4opcg7aiI',
@@ -197,7 +199,7 @@ export const projectsInfo = [
     },
     design: [
       {
-        image: '/src/assets/images/climbUp-Design-Home.jpg',
+        image: assetsItems.climbUpDesignHome,
         title: 'home',
       },
     ],

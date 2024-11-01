@@ -1,4 +1,5 @@
 import styles from './Technologies.module.css';
+import { assetsItems } from '../../../assets/assets';
 import CardTech from '../../../components/cardTech/cardTech';
 
 const Technologies = () => {
@@ -13,7 +14,7 @@ const Technologies = () => {
         </h1>
         <div className={styles.react}>
           <CardTech
-            image={'/src/assets/icons/react.svg'}
+            image={assetsItems.react}
             href={'https://react.dev/'}
             description={'react'}
             title={'react'}
@@ -21,7 +22,7 @@ const Technologies = () => {
         </div>
         <div className={styles.javascript}>
           <CardTech
-            image={'/src/assets/icons/javascript.svg'}
+            image={assetsItems.javascript}
             href={'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'}
             description={'javascript'}
             title={'javascript'}
@@ -29,7 +30,7 @@ const Technologies = () => {
         </div>
         <div className={styles.typescript}>
           <CardTech
-            image={'/src/assets/icons/typescript.svg'}
+            image={assetsItems.typescript}
             href={'https://www.typescriptlang.org/'}
             description={'typescript'}
             title={'typescript'}
@@ -37,7 +38,7 @@ const Technologies = () => {
         </div>
         <div className={styles.node}>
           <CardTech
-            image={'/src/assets/icons/node.svg'}
+            image={assetsItems.node}
             href={'https://nodejs.org/pt'}
             description={'node'}
             title={'node'}
@@ -45,7 +46,7 @@ const Technologies = () => {
         </div>
         <div className={styles.figma}>
           <CardTech
-            image={'/src/assets/icons/figma.svg'}
+            image={assetsItems.figma}
             href={'https://www.figma.com/pt-br/'}
             description={'figma'}
             title={'figma'}
@@ -53,7 +54,7 @@ const Technologies = () => {
         </div>
         <div className={styles.tailwind}>
           <CardTech
-            image={'/src/assets/icons/tailwindcss.svg'}
+            image={assetsItems.tailwind}
             href={'https://tailwindcss.com/'}
             description={'tailwind'}
             title={'tailwind'}
@@ -62,7 +63,7 @@ const Technologies = () => {
         <h1 className={styles.logias}>LOGIAS</h1>
         <div className={styles.css}>
           <CardTech
-            image={'/src/assets/icons/css.svg'}
+            image={assetsItems.css}
             href={'https://developer.mozilla.org/pt-BR/docs/Web/CSS'}
             description={'CSS'}
             title={'css'}
@@ -70,7 +71,7 @@ const Technologies = () => {
         </div>
         <div className={styles.html}>
           <CardTech
-            image={'/src/assets/icons/html.svg'}
+            image={assetsItems.html}
             href={'https://developer.mozilla.org/pt-BR/docs/Web/HTML'}
             description={'html'}
             title={'html'}
@@ -79,7 +80,7 @@ const Technologies = () => {
         <div className={styles.vazio}></div>
         <div className={styles.nest}>
           <CardTech
-            image={'/src/assets/icons/nest.svg'}
+            image={assetsItems.nest}
             href={'https://nestjs.com/'}
             description={'nest'}
             title={'nest'}
@@ -87,7 +88,7 @@ const Technologies = () => {
         </div>
         <div className={styles.next}>
           <CardTech
-            image={'/src/assets/icons/next.svg'}
+            image={assetsItems.next}
             href={'https://nextjs.org/'}
             description={'next'}
             title={'next'}
