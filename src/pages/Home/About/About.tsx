@@ -16,37 +16,38 @@ const About = () => {
         <div className={styles.phraseContainer}>
           <p>
             Me chamo Mateus Borges e Guimarães, tenho 23 anos e estou concluindo
-            o Bacharelado em Sistemas de Informação, tive o primeiro contato com
-            a área em 2020, onde acabei me apaixonando por programação Web e
-            Design.
+            o bacharelado em Sistemas de Informação. Tive meu primeiro contato
+            com a área em 2020, quando acabei me apaixonando por programação web
+            e design.
           </p>
 
           <p>
-            Tenho interesse em trabalhar com full stack na área de web,
-            atualmente meu conhecimento se concentra mais na parte do front End.
+            Tenho interesse em trabalhar como desenvolvedor full stack na área
+            de web. Atualmente, meu conhecimento se concentra mais na parte de
+            front-end.
           </p>
 
           <p>
-            Sou uma pessoa muito dedicada, estou sempre disposto a aprender
-            novas tecnologias e a enfrentar quaisquer desafios propostos, sou
-            muito comunicativo quando a questão é aprender algo.
+            Sou uma pessoa muito dedicada, sempre disposto a aprender novas
+            tecnologias e a enfrentar quaisquer desafios propostos. Sou muito
+            comunicativo quando se trata de aprender algo novo.
           </p>
 
           <p>
-            Tenho inglês intermediário, tenho conhecimento de design de maneira
-            que possa ajudar também a contribuir no processo criativo do
-            desenvolvimento dos sites.
+            Tenho inglês intermediário e conhecimento em design, o que me
+            permite contribuir também no processo criativo do desenvolvimento de
+            sites.
           </p>
 
           <p>
-            Ser uma pessoa curiosa, é o que me levou a aprender todas as etapas
-            do desenvolvimento web, do design, ao front end e back end, de
-            maneira que possa contribuir onde for necessário.
+            Ser uma pessoa curiosa foi o que me levou a aprender todas as etapas
+            do desenvolvimento web, desde o design até o front-end e o back-end,
+            de maneira que eu possa contribuir onde for necessário
           </p>
 
           <p>
-            Sempre que começo algo, tenha certeza que vou dar o meu máximo para
-            terminar.
+            Sempre que começo algo, tenha certeza de que vou dar o meu máximo
+            para concluir.
           </p>
         </div>
 
