@@ -15,7 +15,6 @@ const Technologies = () => {
         <div className={styles.react}>
           <CardTech
             image={assetsItems.react}
-            href={'https://react.dev/'}
             description={'react'}
             title={'react'}
           />
@@ -23,7 +22,6 @@ const Technologies = () => {
         <div className={styles.javascript}>
           <CardTech
             image={assetsItems.javascript}
-            href={'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'}
             description={'javascript'}
             title={'javascript'}
           />
@@ -31,7 +29,6 @@ const Technologies = () => {
         <div className={styles.typescript}>
           <CardTech
             image={assetsItems.typescript}
-            href={'https://www.typescriptlang.org/'}
             description={'typescript'}
             title={'typescript'}
           />
@@ -39,7 +36,6 @@ const Technologies = () => {
         <div className={styles.node}>
           <CardTech
             image={assetsItems.node}
-            href={'https://nodejs.org/pt'}
             description={'node'}
             title={'node'}
           />
@@ -47,7 +43,6 @@ const Technologies = () => {
         <div className={styles.figma}>
           <CardTech
             image={assetsItems.figma}
-            href={'https://www.figma.com/pt-br/'}
             description={'figma'}
             title={'figma'}
           />
@@ -55,24 +50,17 @@ const Technologies = () => {
         <div className={styles.tailwind}>
           <CardTech
             image={assetsItems.tailwind}
-            href={'https://tailwindcss.com/'}
             description={'tailwind'}
             title={'tailwind'}
           />
         </div>
         <h1 className={styles.logias}>LOGIAS</h1>
         <div className={styles.css}>
-          <CardTech
-            image={assetsItems.css}
-            href={'https://developer.mozilla.org/pt-BR/docs/Web/CSS'}
-            description={'CSS'}
-            title={'css'}
-          />
+          <CardTech image={assetsItems.css} description={'CSS'} title={'css'} />
         </div>
         <div className={styles.html}>
           <CardTech
             image={assetsItems.html}
-            href={'https://developer.mozilla.org/pt-BR/docs/Web/HTML'}
             description={'html'}
             title={'html'}
           />
@@ -81,7 +69,6 @@ const Technologies = () => {
         <div className={styles.nest}>
           <CardTech
             image={assetsItems.nest}
-            href={'https://nestjs.com/'}
             description={'nest'}
             title={'nest'}
           />
@@ -89,7 +76,6 @@ const Technologies = () => {
         <div className={styles.next}>
           <CardTech
             image={assetsItems.next}
-            href={'https://nextjs.org/'}
             description={'next'}
             title={'next'}
           />
