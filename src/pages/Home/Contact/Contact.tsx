@@ -15,7 +15,7 @@ const Contact = () => {
           </p>
           <p>
             <span></span>
-            <a href="">@linkedin</a>
+            <a href="https://www.linkedin.com/in/mateus-borges-11ab522b8/">@linkedin</a>
           </p>
         </div>
       </div>
