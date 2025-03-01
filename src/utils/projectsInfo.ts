@@ -202,4 +202,49 @@ export const projectsInfo = [
       },
     ],
   },
+  {
+    name: 'Ocean Library',
+    cleanName: 'ocean-library',
+    image: assetsItems.oceanLibraryThumb,
+    embed: 'https://www.youtube.com/embed/tuUTBxXuOfs',
+    urlGithub: 'https://github.com/MateusBorgesGuimaraes/ocean-library-app',
+    urlYoutube: 'https://youtu.be/tuUTBxXuOfs',
+    description:
+      'O Ocean Library é um site fictício de biblioteca desenvolvido com o objetivo de proporcionar uma experiência moderna e funcional para gerenciamento de livros, eventos e notícias, tanto para usuários comuns quanto para administradores da plataforma.',
+    technologies: [
+      'React',
+      'zustand',
+      'react-hook-form',
+      'zod',
+      'axios',
+      'loadash',
+    ],
+    objetivos: {
+      principais: [
+        'Proporcionar uma página inicial minimalista com livros disponíveis para empréstimo.',
+        'Exibir um preview detalhado de cada livro.',
+        'Oferecer um sistema de buscas com filtros avançados.',
+        'Disponibilizar notícias e eventos relevantes para os usuários.',
+      ],
+      secundarios: [
+        'Fornecer uma interface simples e intuitiva para os usuários.',
+        'Preview de livros com detalhes relevantes.',
+        'Permitir que os usuários faça login e cadastro.',
+      ],
+    },
+    design: [
+      {
+        image: assetsItems.oceanLibraryDesignMain,
+        title: 'home parte 1',
+      },
+      {
+        image: assetsItems.oceanLibraryDesignMain1,
+        title: 'home parte 1',
+      },
+      {
+        image: assetsItems.oceanOthers,
+        title: 'outros',
+      },
+    ],
+  },
 ];

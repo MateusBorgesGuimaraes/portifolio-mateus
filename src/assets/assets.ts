@@ -33,6 +33,11 @@ import readingManagerDesignFolders from './images/readingManeger-Design-folders.
 import readingManagerDesignHome from './images/readingManeger-Design-Home.jpg';
 import readingManagerDesignAcesso from './images/readingManeger-Design-Acesso.png';
 
+import oceanLibraryThumb from './images/ocean-thumb.png';
+import oceanLibraryDesignMain1 from './images/ocean-Design-main.png';
+import oceanLibraryDesignMain from './images/ocean-Design-main2.png';
+import oceanOthers from './images/ocean-Design-others.png';
+
 export const assetsItems = {
   css,
   projectArrow,
@@ -63,4 +68,8 @@ export const assetsItems = {
   readingManagerDesignFolders,
   readingManagerDesignHome,
   readingManagerDesignAcesso,
+  oceanLibraryThumb,
+  oceanLibraryDesignMain1,
+  oceanLibraryDesignMain,
+  oceanOthers,
 };
