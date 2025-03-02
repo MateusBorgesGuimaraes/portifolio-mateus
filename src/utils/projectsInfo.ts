@@ -247,4 +247,43 @@ export const projectsInfo = [
       },
     ],
   },
+  {
+    name: 'Factus Blog',
+    cleanName: 'factus-blog',
+    image: assetsItems.factusThumb,
+    embed: 'https://www.youtube.com/embed/NNFrB4Zxv8g',
+    urlGithub: 'https://github.com/MateusBorgesGuimaraes/factus-blog-app',
+    urlYoutube: 'https://youtu.be/NNFrB4Zxv8g',
+    description:
+      'Factus Blog é um site moderno e fluido desenvolvido com Next.js, oferecendo uma interface elegante e intuitiva para os usuários acessarem e lerem notícias de forma simples e eficiente.',
+    technologies: ['Next.js', 'Editor.js', 'Zod', 'Zustand', 'React Hook Form'],
+    objetivos: {
+      principais: [
+        'Utilizar uma biblioteca de edição de texto para facilitar a criação de posts.',
+        'Implementar funcionalidades de login e cadastro de usuários.',
+        'Permitir que usuários salvem posts como favoritos.',
+        'Criar uma área de edição para usuários com a role blogger.',
+      ],
+      secundarios: [
+        'Exibir curiosidades aleatórias na seção hero.',
+        'Desenvolver uma interface moderna e responsiva.',
+        'Incluir uma galeria de imagens na página.',
+        'Permitir que os usuários realizem upload de fotos de perfil.',
+      ],
+    },
+    design: [
+      {
+        image: assetsItems.factusBlogHome,
+        title: 'home',
+      },
+      {
+        image: assetsItems.factusBlogPost,
+        title: 'post',
+      },
+      {
+        image: assetsItems.factusBlogConta,
+        title: 'conta',
+      },
+    ],
+  },
 ];

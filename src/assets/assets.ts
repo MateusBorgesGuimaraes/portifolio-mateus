@@ -38,6 +38,11 @@ import oceanLibraryDesignMain1 from './images/ocean-Design-main.png';
 import oceanLibraryDesignMain from './images/ocean-Design-main2.png';
 import oceanOthers from './images/ocean-Design-others.png';
 
+import factusBlogHome from './images/factus-Design-home.jpg';
+import factusBlogPost from './images/factus-Design-post.jpg';
+import factusBlogConta from './images/factus-Design-conta.jpg';
+import factusThumb from './images/factus-thumb.png';
+
 export const assetsItems = {
   css,
   projectArrow,
@@ -72,4 +77,8 @@ export const assetsItems = {
   oceanLibraryDesignMain1,
   oceanLibraryDesignMain,
   oceanOthers,
+  factusBlogHome,
+  factusBlogPost,
+  factusBlogConta,
+  factusThumb,
 };
